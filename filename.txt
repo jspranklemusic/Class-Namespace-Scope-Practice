@@ -1,0 +1,24 @@
+Files can be tricky, but it is fun enough!
+
+
+When passing return values of functions to arguments,
+C++ does not specify which one will run first.
+
+When addressing errors, always address the first error first.
+
+ONE DEFINITION RULE:
+
+    1. Within a given file, a function, object, type, or template can only have one definition.
+
+    2. Within a given program, an object or normal function can only have one definition. This distinction is made because programs can have more than one file (we’ll cover this in the next lesson).
+
+    3. Types, templates, inline functions, and variables are allowed to have identical definitions in different files. We haven’t covered what most of these things are yet, so don’t worry about this for now -- we’ll bring it back up when it’s relevant.
+
+
+A declaration is a statement that tells the compiler about the existence of an identifier and its type information. Here are some examples of declarations:
+
+A forward declaration tells the compiler that an identifier exists before it is actually defined.
+
+When you use an identifier that is defined inside a namespace (such as the std namespace), you have to tell the compiler that the identifier lives inside the namespace.
+
+The :: symbol is an operator called the scope resolution operator. 
